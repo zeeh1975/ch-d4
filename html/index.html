@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cuarto desafío backend Coderhouse: API RESTful</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <div class="area">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+  <div class="context">
+    <div class="inputform">
+      <form action="/api/productos" method="post">
+        <h1 class="inputform">Alta de productos</h1>
+        <input name="title" type="text" class="inputform feedback-input" placeholder="Titulo" autofocus />
+        <input name="price" type="number" class="feedback-input" placeholder="Precio" step="any" />
+        <input name="thumbnail" type="text" class="feedback-input" placeholder="Imagen" />
+        <input type="submit" value="Agregar" />
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
